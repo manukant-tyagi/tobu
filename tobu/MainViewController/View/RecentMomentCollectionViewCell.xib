@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Quicksand-Medium.ttf">
+            <string>Quicksand-Medium</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="RecentMomentCollectionViewCell" id="gTV-IL-0wX" customClass="RecentMomentCollectionViewCell" customModule="tobu" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="213" height="310"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="213" height="310"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5jh-cm-CWd">
+                        <rect key="frame" x="0.0" y="0.0" width="213" height="310"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="testPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="v1V-Gr-eWc">
+                                <rect key="frame" x="0.0" y="0.0" width="213" height="310"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="15"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="w72-Gt-Oe4">
+                                <rect key="frame" x="0.0" y="277" width="213" height="18"/>
+                                <fontDescription key="fontDescription" name="Quicksand-Medium" family="Quicksand" pointSize="14"/>
+                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="  Share Moments">
+                                    <imageReference key="image" image="location" catalog="system" symbolScale="small"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="v1V-Gr-eWc" secondAttribute="bottom" id="Bcz-cy-aSk"/>
+                            <constraint firstAttribute="trailing" secondItem="v1V-Gr-eWc" secondAttribute="trailing" id="GEx-CE-XJp"/>
+                            <constraint firstItem="w72-Gt-Oe4" firstAttribute="leading" secondItem="5jh-cm-CWd" secondAttribute="leading" id="HJx-C4-ZkN"/>
+                            <constraint firstAttribute="bottom" secondItem="w72-Gt-Oe4" secondAttribute="bottom" constant="15" id="Lf9-ND-9Fn"/>
+                            <constraint firstItem="v1V-Gr-eWc" firstAttribute="leading" secondItem="5jh-cm-CWd" secondAttribute="leading" id="PSg-3d-hKT"/>
+                            <constraint firstAttribute="trailing" secondItem="w72-Gt-Oe4" secondAttribute="trailing" id="Ukb-DV-g0Y"/>
+                            <constraint firstItem="v1V-Gr-eWc" firstAttribute="top" secondItem="5jh-cm-CWd" secondAttribute="top" id="s24-cj-oKd"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstItem="5jh-cm-CWd" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="eIE-O0-1YH"/>
+                <constraint firstAttribute="trailing" secondItem="5jh-cm-CWd" secondAttribute="trailing" id="gCo-Pi-huQ"/>
+                <constraint firstAttribute="bottom" secondItem="5jh-cm-CWd" secondAttribute="bottom" id="la2-cq-4dR"/>
+                <constraint firstItem="5jh-cm-CWd" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="m18-pQ-GI7"/>
+            </constraints>
+            <size key="customSize" width="213" height="310"/>
+            <connections>
+                <outlet property="momentImageView" destination="v1V-Gr-eWc" id="wy3-IY-so5"/>
+            </connections>
+            <point key="canvasLocation" x="70.28985507246378" y="113.16964285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="location" catalog="system" width="128" height="118"/>
+        <image name="testPhoto" width="500" height="750"/>
+    </resources>
+</document>

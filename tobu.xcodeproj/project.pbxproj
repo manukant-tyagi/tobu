@@ -13,17 +13,43 @@
 		DAE87BD0283CAB62004A5301 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BCE283CAB62004A5301 /* Main.storyboard */; };
 		DAE87BD2283CAB64004A5301 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BD1283CAB64004A5301 /* Assets.xcassets */; };
 		DAE87BD5283CAB64004A5301 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BD3283CAB64004A5301 /* LaunchScreen.storyboard */; };
+		DAE87BED283CB7CE004A5301 /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BEB283CB7A4004A5301 /* Quicksand-Regular.ttf */; };
+		DAE87BEE283CB7D1004A5301 /* Quicksand-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BEC283CB7AB004A5301 /* Quicksand-SemiBold.ttf */; };
+		DAE87BEF283CB7D3004A5301 /* Quicksand-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BEA283CB799004A5301 /* Quicksand-Medium.ttf */; };
+		DAE87BF0283CB7D6004A5301 /* Quicksand-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BE9283CB78E004A5301 /* Quicksand-Light.ttf */; };
+		DAE87BF1283CB7D9004A5301 /* Quicksand-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BE8283CB77B004A5301 /* Quicksand-Bold.ttf */; };
+		DAE87BF4283CE4C0004A5301 /* RecentMomentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87BF2283CE4C0004A5301 /* RecentMomentCollectionViewCell.swift */; };
+		DAE87BF5283CE4C0004A5301 /* RecentMomentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BF3283CE4C0004A5301 /* RecentMomentCollectionViewCell.xib */; };
+		DAE87BF8283CEF85004A5301 /* ContactCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87BF6283CEF85004A5301 /* ContactCollectionViewCell.swift */; };
+		DAE87BF9283CEF85004A5301 /* ContactCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE87BF7283CEF85004A5301 /* ContactCollectionViewCell.xib */; };
+		DAE87C06283E04FA004A5301 /* MomentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87C05283E04FA004A5301 /* MomentViewController.swift */; };
+		DAE87C09283E294A004A5301 /* CustomDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87C07283E294A004A5301 /* CustomDateCollectionViewCell.swift */; };
+		DAE87C0A283E294A004A5301 /* CustomDateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE87C08283E294A004A5301 /* CustomDateCollectionViewCell.xib */; };
+		DAE87C0C283E2C19004A5301 /* customCalenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87C0B283E2C19004A5301 /* customCalenderData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		DAE87BC5283CAB62004A5301 /* tobu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tobu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAE87BC8283CAB62004A5301 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAE87BCA283CAB62004A5301 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DAE87BCC283CAB62004A5301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DAE87BCC283CAB62004A5301 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = /Users/manukanttyagi/Desktop/tobu/tobu/ViewController.swift; sourceTree = "<absolute>"; };
 		DAE87BCF283CAB62004A5301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DAE87BD1283CAB64004A5301 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DAE87BD4283CAB64004A5301 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DAE87BD6283CAB64004A5301 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DAE87BE8283CB77B004A5301 /* Quicksand-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Bold.ttf"; sourceTree = "<group>"; };
+		DAE87BE9283CB78E004A5301 /* Quicksand-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Light.ttf"; sourceTree = "<group>"; };
+		DAE87BEA283CB799004A5301 /* Quicksand-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Medium.ttf"; sourceTree = "<group>"; };
+		DAE87BEB283CB7A4004A5301 /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		DAE87BEC283CB7AB004A5301 /* Quicksand-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-SemiBold.ttf"; sourceTree = "<group>"; };
+		DAE87BF2283CE4C0004A5301 /* RecentMomentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentMomentCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAE87BF3283CE4C0004A5301 /* RecentMomentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = RecentMomentCollectionViewCell.xib; sourceTree = "<group>"; };
+		DAE87BF6283CEF85004A5301 /* ContactCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAE87BF7283CEF85004A5301 /* ContactCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ContactCollectionViewCell.xib; sourceTree = "<group>"; };
+		DAE87C05283E04FA004A5301 /* MomentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentViewController.swift; sourceTree = "<group>"; };
+		DAE87C07283E294A004A5301 /* CustomDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDateCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAE87C08283E294A004A5301 /* CustomDateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomDateCollectionViewCell.xib; sourceTree = "<group>"; };
+		DAE87C0B283E2C19004A5301 /* customCalenderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCalenderData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +82,124 @@
 		DAE87BC7283CAB62004A5301 /* tobu */ = {
 			isa = PBXGroup;
 			children = (
-				DAE87BC8283CAB62004A5301 /* AppDelegate.swift */,
-				DAE87BCA283CAB62004A5301 /* SceneDelegate.swift */,
-				DAE87BCC283CAB62004A5301 /* ViewController.swift */,
-				DAE87BCE283CAB62004A5301 /* Main.storyboard */,
-				DAE87BD1283CAB64004A5301 /* Assets.xcassets */,
-				DAE87BD3283CAB64004A5301 /* LaunchScreen.storyboard */,
+				DAE87C00283E0413004A5301 /* MomentViewController */,
+				DAE87BFF283DFD14004A5301 /* StoryBoard */,
+				DAE87BFE283DFCE8004A5301 /* HelperFiles */,
+				DAE87BFA283DFC3C004A5301 /* MainViewController */,
 				DAE87BD6283CAB64004A5301 /* Info.plist */,
 			);
 			path = tobu;
+			sourceTree = "<group>";
+		};
+		DAE87BE7283CB730004A5301 /* QuicksandFonts */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87BEB283CB7A4004A5301 /* Quicksand-Regular.ttf */,
+				DAE87BEC283CB7AB004A5301 /* Quicksand-SemiBold.ttf */,
+				DAE87BEA283CB799004A5301 /* Quicksand-Medium.ttf */,
+				DAE87BE9283CB78E004A5301 /* Quicksand-Light.ttf */,
+				DAE87BE8283CB77B004A5301 /* Quicksand-Bold.ttf */,
+			);
+			path = QuicksandFonts;
+			sourceTree = "<group>";
+		};
+		DAE87BFA283DFC3C004A5301 /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87BFB283DFC5B004A5301 /* Model */,
+				DAE87BFC283DFC77004A5301 /* View */,
+				DAE87BFD283DFC9A004A5301 /* Controller */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		DAE87BFB283DFC5B004A5301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAE87BFC283DFC77004A5301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87BF7283CEF85004A5301 /* ContactCollectionViewCell.xib */,
+				DAE87BF3283CE4C0004A5301 /* RecentMomentCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAE87BFD283DFC9A004A5301 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87BCC283CAB62004A5301 /* ViewController.swift */,
+				DAE87BF6283CEF85004A5301 /* ContactCollectionViewCell.swift */,
+				DAE87BF2283CE4C0004A5301 /* RecentMomentCollectionViewCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAE87BFE283DFCE8004A5301 /* HelperFiles */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87BE7283CB730004A5301 /* QuicksandFonts */,
+				DAE87BC8283CAB62004A5301 /* AppDelegate.swift */,
+				DAE87BD1283CAB64004A5301 /* Assets.xcassets */,
+				DAE87BCA283CAB62004A5301 /* SceneDelegate.swift */,
+			);
+			path = HelperFiles;
+			sourceTree = "<group>";
+		};
+		DAE87BFF283DFD14004A5301 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87BCE283CAB62004A5301 /* Main.storyboard */,
+				DAE87BD3283CAB64004A5301 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		DAE87C00283E0413004A5301 /* MomentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87C02283E04AA004A5301 /* Model */,
+				DAE87C03283E04B3004A5301 /* View */,
+				DAE87C01283E0433004A5301 /* Controller */,
+				DAE87C04283E04BF004A5301 /* ViewModel */,
+			);
+			path = MomentViewController;
+			sourceTree = "<group>";
+		};
+		DAE87C01283E0433004A5301 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87C07283E294A004A5301 /* CustomDateCollectionViewCell.swift */,
+				DAE87C05283E04FA004A5301 /* MomentViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		DAE87C02283E04AA004A5301 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87C0B283E2C19004A5301 /* customCalenderData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		DAE87C03283E04B3004A5301 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				DAE87C08283E294A004A5301 /* CustomDateCollectionViewCell.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DAE87C04283E04BF004A5301 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +261,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE87BD5283CAB64004A5301 /* LaunchScreen.storyboard in Resources */,
+				DAE87BEE283CB7D1004A5301 /* Quicksand-SemiBold.ttf in Resources */,
 				DAE87BD2283CAB64004A5301 /* Assets.xcassets in Resources */,
+				DAE87BF0283CB7D6004A5301 /* Quicksand-Light.ttf in Resources */,
 				DAE87BD0283CAB62004A5301 /* Main.storyboard in Resources */,
+				DAE87BF9283CEF85004A5301 /* ContactCollectionViewCell.xib in Resources */,
+				DAE87BED283CB7CE004A5301 /* Quicksand-Regular.ttf in Resources */,
+				DAE87BF5283CE4C0004A5301 /* RecentMomentCollectionViewCell.xib in Resources */,
+				DAE87C0A283E294A004A5301 /* CustomDateCollectionViewCell.xib in Resources */,
+				DAE87BEF283CB7D3004A5301 /* Quicksand-Medium.ttf in Resources */,
+				DAE87BF1283CB7D9004A5301 /* Quicksand-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +282,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				DAE87BCD283CAB62004A5301 /* ViewController.swift in Sources */,
+				DAE87BF8283CEF85004A5301 /* ContactCollectionViewCell.swift in Sources */,
+				DAE87C06283E04FA004A5301 /* MomentViewController.swift in Sources */,
 				DAE87BC9283CAB62004A5301 /* AppDelegate.swift in Sources */,
 				DAE87BCB283CAB62004A5301 /* SceneDelegate.swift in Sources */,
+				DAE87BF4283CE4C0004A5301 /* RecentMomentCollectionViewCell.swift in Sources */,
+				DAE87C0C283E2C19004A5301 /* customCalenderData.swift in Sources */,
+				DAE87C09283E294A004A5301 /* CustomDateCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
