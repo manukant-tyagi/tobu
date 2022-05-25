@@ -280,10 +280,10 @@
             </objects>
             <point key="canvasLocation" x="18.46153846153846" y="65.402843601895725"/>
         </scene>
-        <!--View Controller-->
+        <!--Moment View Controller-->
         <scene sceneID="bds-aR-cAH">
             <objects>
-                <viewController id="S2z-cf-iiu" sceneMemberID="viewController">
+                <viewController id="S2z-cf-iiu" customClass="MomentViewController" customModule="tobu" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="36q-Pz-2CQ">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -444,7 +444,7 @@
                                     <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="92B-rY-oCb">
                                         <rect key="frame" x="0.0" y="411.66666666666674" width="375" height="321.33333333333326"/>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                                        <collectionViewFlowLayout key="collectionViewLayout" automaticEstimatedItemSize="YES" minimumLineSpacing="10" minimumInteritemSpacing="10" id="Pdo-1N-iX8">
+                                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="Pdo-1N-iX8">
                                             <size key="itemSize" width="128" height="128"/>
                                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
@@ -495,6 +495,9 @@
                             <constraint firstItem="Oa3-Ro-h2j" firstAttribute="top" secondItem="Ca1-NR-p31" secondAttribute="top" id="vRA-Rt-DGO"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="momentCollectionView" destination="92B-rY-oCb" id="HXp-kX-PGW"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="O6L-FS-SLB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

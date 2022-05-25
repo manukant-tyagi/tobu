@@ -26,6 +26,10 @@
 		DAE87C09283E294A004A5301 /* CustomDateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87C07283E294A004A5301 /* CustomDateCollectionViewCell.swift */; };
 		DAE87C0A283E294A004A5301 /* CustomDateCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE87C08283E294A004A5301 /* CustomDateCollectionViewCell.xib */; };
 		DAE87C0C283E2C19004A5301 /* customCalenderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87C0B283E2C19004A5301 /* customCalenderData.swift */; };
+		DAE87C0F283E50B7004A5301 /* MomentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87C0D283E50B7004A5301 /* MomentCollectionViewCell.swift */; };
+		DAE87C10283E50B7004A5301 /* MomentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE87C0E283E50B7004A5301 /* MomentCollectionViewCell.xib */; };
+		DAE87C13283E6406004A5301 /* AddMomentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAE87C11283E6405004A5301 /* AddMomentCollectionViewCell.swift */; };
+		DAE87C14283E6406004A5301 /* AddMomentCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = DAE87C12283E6405004A5301 /* AddMomentCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +54,10 @@
 		DAE87C07283E294A004A5301 /* CustomDateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDateCollectionViewCell.swift; sourceTree = "<group>"; };
 		DAE87C08283E294A004A5301 /* CustomDateCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomDateCollectionViewCell.xib; sourceTree = "<group>"; };
 		DAE87C0B283E2C19004A5301 /* customCalenderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = customCalenderData.swift; sourceTree = "<group>"; };
+		DAE87C0D283E50B7004A5301 /* MomentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAE87C0E283E50B7004A5301 /* MomentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MomentCollectionViewCell.xib; sourceTree = "<group>"; };
+		DAE87C11283E6405004A5301 /* AddMomentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMomentCollectionViewCell.swift; sourceTree = "<group>"; };
+		DAE87C12283E6405004A5301 /* AddMomentCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AddMomentCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -142,9 +150,9 @@
 		DAE87BFE283DFCE8004A5301 /* HelperFiles */ = {
 			isa = PBXGroup;
 			children = (
+				DAE87BD1283CAB64004A5301 /* Assets.xcassets */,
 				DAE87BE7283CB730004A5301 /* QuicksandFonts */,
 				DAE87BC8283CAB62004A5301 /* AppDelegate.swift */,
-				DAE87BD1283CAB64004A5301 /* Assets.xcassets */,
 				DAE87BCA283CAB62004A5301 /* SceneDelegate.swift */,
 			);
 			path = HelperFiles;
@@ -173,6 +181,8 @@
 		DAE87C01283E0433004A5301 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DAE87C11283E6405004A5301 /* AddMomentCollectionViewCell.swift */,
+				DAE87C0D283E50B7004A5301 /* MomentCollectionViewCell.swift */,
 				DAE87C07283E294A004A5301 /* CustomDateCollectionViewCell.swift */,
 				DAE87C05283E04FA004A5301 /* MomentViewController.swift */,
 			);
@@ -191,6 +201,8 @@
 			isa = PBXGroup;
 			children = (
 				DAE87C08283E294A004A5301 /* CustomDateCollectionViewCell.xib */,
+				DAE87C0E283E50B7004A5301 /* MomentCollectionViewCell.xib */,
+				DAE87C12283E6405004A5301 /* AddMomentCollectionViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -264,8 +276,10 @@
 				DAE87BEE283CB7D1004A5301 /* Quicksand-SemiBold.ttf in Resources */,
 				DAE87BD2283CAB64004A5301 /* Assets.xcassets in Resources */,
 				DAE87BF0283CB7D6004A5301 /* Quicksand-Light.ttf in Resources */,
+				DAE87C10283E50B7004A5301 /* MomentCollectionViewCell.xib in Resources */,
 				DAE87BD0283CAB62004A5301 /* Main.storyboard in Resources */,
 				DAE87BF9283CEF85004A5301 /* ContactCollectionViewCell.xib in Resources */,
+				DAE87C14283E6406004A5301 /* AddMomentCollectionViewCell.xib in Resources */,
 				DAE87BED283CB7CE004A5301 /* Quicksand-Regular.ttf in Resources */,
 				DAE87BF5283CE4C0004A5301 /* RecentMomentCollectionViewCell.xib in Resources */,
 				DAE87C0A283E294A004A5301 /* CustomDateCollectionViewCell.xib in Resources */,
@@ -281,8 +295,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DAE87C13283E6406004A5301 /* AddMomentCollectionViewCell.swift in Sources */,
 				DAE87BCD283CAB62004A5301 /* ViewController.swift in Sources */,
 				DAE87BF8283CEF85004A5301 /* ContactCollectionViewCell.swift in Sources */,
+				DAE87C0F283E50B7004A5301 /* MomentCollectionViewCell.swift in Sources */,
 				DAE87C06283E04FA004A5301 /* MomentViewController.swift in Sources */,
 				DAE87BC9283CAB62004A5301 /* AppDelegate.swift in Sources */,
 				DAE87BCB283CAB62004A5301 /* SceneDelegate.swift in Sources */,
